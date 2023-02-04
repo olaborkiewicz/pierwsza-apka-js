@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kurs JavaScript</title>
+  </head>
+  <body>
+    <main id="main-section">
+      <h1 id="heading">To-do: <span id="counter">0</span></h1>
+      <div class="form-container">
+        <form id="todo-form">
+          <input
+            id="todo-task"
+            class="form-control"
+            type="text"
+            placeholder="Enter task..."
+          />
+          <button id="form-submit" class="btn" type="submit">Add Task!</button>
+        </form>
+      </div>
+      <div id="todo-error" class="todo-error"></div>
+      <div id="todo-container" class="todo-container"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
